@@ -1,5 +1,5 @@
 # mRicks322.github.io
 
-Building and exploring cloud infrastructure capabilities and possibilities. 
-Mastering Security concepts while
-Implementing secure, high performance, and scalable solutions.
+Building and exploring cloud infrastructure capabilities while 
+Mastering security concepts and
+implementing secure,scalable solutions.
