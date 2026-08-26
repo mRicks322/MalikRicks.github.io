@@ -1,7 +1,28 @@
-theme: jekyll-theme-architect
-title: Malik Ricks 
-description: Resume, Interests, and Projects Portfolio.
+# Jekyll site configuration for GitHub Pages
 remote_theme: pages-themes/architect@v0.2.0
-plugins:
-  -jekyll-remote-theme
 
+title: "Malik Ricks"
+description: "Resume, Interests, and Projects Portfolio."
+url: "https://mRicks322.github.io"   # your site URL (no trailing slash)
+baseurl: ""                          # empty for user/organization site; use "/repo-name" for project pages
+
+author:
+  name: "Malik Ricks"
+
+plugins:
+  - jekyll-remote-theme
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+permalink: /:title/   # user-friendly URLs
+
+exclude:
+  - README.md
+
+# Optional: enable pagination, collections, social links, etc.
+# paginate: 5
+# collections:
+#   projects:
+#     output: true
