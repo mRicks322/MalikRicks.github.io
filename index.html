@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,17 +36,17 @@
 </head>
 <body>
     <header>
-        <h1>Malik Ricks</h1>
+        <h1>{{ site.title }}</h1>
         <p class="tagline">CISSP | Cybersecurity Professional</p>
     </header>
 
     <main>
-        <p>Professional site hosted with GitHub Pages.</p>
+        <p>{{ site.description }}</p>
         <!-- Add more content here: About, Skills, Projects, Contact, etc. -->
     </main>
 
     <footer>
-        <p>&copy; 2026 Malik Ricks. All rights reserved.</p>
+        <p>&copy; 2026 {{ site.author.name }}. All rights reserved.</p>
     </footer>
 </body>
 </html>
