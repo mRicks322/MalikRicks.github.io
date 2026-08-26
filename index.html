@@ -4,49 +4,117 @@ layout: default
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio of Malik Ricks, CISSP. Cybersecurity expert and IT professional.">
-    <title>Malik Ricks, CISSP</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            border-radius: 5px;
-            margin-bottom: 30px;
-        }
-        h1 {
-            margin: 0;
-        }
-        .tagline {
-            font-size: 0.95em;
-            margin-top: 5px;
-            opacity: 0.9;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional portfolio of Malik Ricks, CISSP. Cybersecurity expert and IT professional." />
+  <title>Malik Ricks, CISSP</title>
+
+  <!-- Bootstrap 5 + Cosmo Theme -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/cosmo/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 60px 20px;
+      margin-bottom: 40px;
+    }
+    .tagline { font-size: 1.1em; opacity: 0.95; }
+    .section-title {
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 10px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .project-card, .skill-badge {
+      margin-bottom: 15px;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      text-align: center;
+      background-color: #f8f9fa;
+      border-top: 1px solid #dee2e6;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <p class="tagline">CISSP | Cybersecurity Professional</p>
-    </header>
+  <header class="text-center">
+    <h1 class="mb-2">Malik Ricks</h1>
+    <p class="tagline mb-0">CISSP | Cybersecurity Professional | Cloud Infrastructure Expert</p>
+  </header>
 
-    <main>
-        <p>{{ site.description }}</p>
-        <!-- Add more content here: About, Skills, Projects, Contact, etc. -->
-    </main>
+  <main class="container">
+    <!-- About Section -->
+    <section id="about" class="mb-5">
+      <h2 class="section-title">About Me</h2>
+      <p>Experienced cybersecurity professional with CISSP certification. Passionate about building secure, scalable cloud infrastructure and implementing defense-in-depth security strategies.</p>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 {{ site.author.name }}. All rights reserved.</p>
-    </footer>
+    <!-- Skills Section -->
+    <section id="skills" class="mb-5">
+      <h2 class="section-title">Skills & Expertise</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Security</h5>
+          <span class="badge bg-danger">Incident Response</span>
+          <span class="badge bg-danger">Risk Management</span>
+          <span class="badge bg-danger">Compliance (HIPAA, PCI-DSS)</span>
+        </div>
+        <div class="col-md-6">
+          <h5>Cloud & Infrastructure</h5>
+          <span class="badge bg-info">AWS</span>
+          <span class="badge bg-info">Azure</span>
+          <span class="badge bg-info">Docker</span>
+          <span class="badge bg-info">Kubernetes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="mb-5">
+      <h2 class="section-title">Projects & Achievements</h2>
+      <div class="project-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Project A: Cloud Security Audit</h5>
+            <p class="card-text">Description of your project, what you built, and key accomplishments.</p>
+            <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Project B: Infrastructure as Code</h5>
+            <p class="card-text">Description of your project, what you built, and key accomplishments.</p>
+            <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mb-5">
+      <h2 class="section-title">Get In Touch</h2>
+      <p>Feel free to reach out for collaborations or inquiries:</p>
+      <p>
+        📧 Email: <a href="mailto:your-email@example.com">your-email@example.com</a><br>
+        💼 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a><br>
+        🐙 GitHub: <a href="https://github.com/mRicks322" target="_blank">github.com/mRicks322</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Malik Ricks. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
