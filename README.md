@@ -1,6 +1,7 @@
-# My Portfolio
+# My Portfolio of clients and teams
 
-# Malik Ricks is a Certified Security Professional with over 8 years of industry experience 
+# Security Operations IT Data Protection Incident Response Mentorship 
+Cloud Security Engineering
 
 Finance
 
