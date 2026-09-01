@@ -1,8 +1,8 @@
 # Jekyll site configuration for GitHub Pages
 remote_theme: pages-themes/architect@v0.2.0
 
-title: "Malik Ricks"
-description: "Security Engineer Portfolio."
+title: "Malik Ricks Security Engineer"
+description: "Portfolio."
 url: "https://mRicks322.github.io"   # your site URL (no trailing slash)
 baseurl: ""                          # empty for user/organization site; use "/repo-name" for project pages
 
