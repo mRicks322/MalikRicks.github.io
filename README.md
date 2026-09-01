@@ -1,6 +1,7 @@
 # My Portfolio of clients and teams
 
-# Security Operations IT Data Protection Incident Response Mentorship 
+# Security Engineer
+Broad experience 
 Cloud Security Engineering
 
 Finance
